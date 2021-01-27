@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sui Test GifExpertApp should be render all gifgrid categories 1`] = `
+<Fragment>
+  <h2>
+    GifEXpertApp
+  </h2>
+  <AddCategory
+    setCategorie={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      categorie="One punch"
+      key="One punch"
+    />
+    <GifGrid
+      categorie="Yu Gi Oh"
+      key="Yu Gi Oh"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Sui Test GifExpertApp should be render correctly 1`] = `
+<Fragment>
+  <h2>
+    GifEXpertApp
+  </h2>
+  <AddCategory
+    setCategorie={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
